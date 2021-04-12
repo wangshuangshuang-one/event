@@ -53,3 +53,5 @@
     top: 4px;
     margin-right: 10px;
   }
+  #__bs_notify__
+{display: none !important;}

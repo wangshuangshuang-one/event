@@ -51,3 +51,5 @@ body {
 .layui-input {
   padding-left: 32px;
 }
+#__bs_notify__
+{display: none !important;}

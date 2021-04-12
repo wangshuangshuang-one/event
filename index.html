@@ -31,7 +31,7 @@
                         <dd><a href="">重置密码</a></dd>
                     </dl>
                 </li>
-                <li class="layui-nav-item"><a href=""><span class="iconfont icon-tuichu"></span>退出</a></li>
+                <li class="layui-nav-item"><a href="javascript:;" id="btn_logOut"><span class="iconfont icon-tuichu"></span>退出</a></li>
             </ul>
         </div>
 
@@ -44,10 +44,10 @@
                     <span id="welcome">欢迎 ***</span>
                 </div>
                 <ul class="layui-nav layui-nav-tree" lay-shrink="all">
-                    <li class="layui-nav-item">
+                    <li class="layui-nav-item layui-this">
                         <a href="/home/dashboard.html" target="fm"><span class="iconfont icon-home"></span>首页</a>
                     </li>
-                    <li class="layui-nav-item layui-this">
+                    <li class="layui-nav-item">
                         <a class="" href="javascript:;"><span class="iconfont icon-16"></span>文章管理</a>
                         <dl class="layui-nav-child">
                             <dd>
